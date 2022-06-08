@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63e5c630-2a9c-4f23-83bb-a0cd8de1e2ab" name="Changes" comment="" />
+    <list default="true" id="52780a75-6504-4a60-af13-7b1728320241" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/_colors.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_colors.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/_extends.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_extends.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/_fonts.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_fonts.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_media.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/_mixins.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_mixins.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/classes.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/classes.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,8 +26,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2AHfEeHiBwTXnL0c79DOMlGcrLm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2AHvHlCWPZHy745Z7Gx1m89sZWO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,13 +42,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="63e5c630-2a9c-4f23-83bb-a0cd8de1e2ab" name="Changes" comment="" />
-      <created>1654671321104</created>
+      <changelist id="52780a75-6504-4a60-af13-7b1728320241" name="Changes" comment="" />
+      <created>1654679241430</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1654671321104</updated>
-      <workItem from="1654671322278" duration="1552000" />
-      <workItem from="1654674119217" duration="1714000" />
+      <updated>1654679241430</updated>
+      <workItem from="1654679243391" duration="26332000" />
     </task>
     <servers />
   </component>
