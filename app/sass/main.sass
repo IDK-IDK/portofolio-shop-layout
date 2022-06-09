@@ -16,14 +16,20 @@
 
 .wrapper
   header
-    max-height: 30px
-    background-color: $marine
     .header
-      align-items: center
+      //align-items: center
+      .color-line
+        grid-row: 1
+        grid-column: 1/4
+        height: 30px
+        background-color: $marine
       .header-lines
+        grid-row: 1
+        grid-column: 2
         align-items: center
         .top-header-line
           grid-column: 8/13
+          grid-row: 1
           display: flex
           justify-content: end
           align-items: center
@@ -60,12 +66,16 @@
             height: 30px
             background-color: $white-50
         .logo
+          grid-row: 2
+
           grid-column: 1/span 2
           width: 72px
           height: 30px
           background-color: $marine
           background: url("../../img/footer-logo.svg") no-repeat center center
         .nav
+          grid-row: 2
+
           grid-column: 4/ span 5
           display: flex
           min-width: 445px
@@ -78,6 +88,7 @@
             &:nth-of-type(4)
                 margin-right: 0
         .contact-block
+          grid-row: 2
           grid-column: 10/ span 3
           justify-self: end
           width: 256px
