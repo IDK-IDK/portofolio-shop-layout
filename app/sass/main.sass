@@ -113,8 +113,11 @@
         @media (max-width: 1300px)
           .nav
             grid-column: 1/ span 5
+            grid-row: 3
           .logo
             margin: 15px 0
+          .contact-block
+            grid-row: 2/4
         @media (max-width: 1220px)
           .contact-block
             grid-column: 6/ 13
@@ -137,6 +140,7 @@
           .nav
             grid-column: 1/13
             justify-self: center
+            grid-row: 4
         @media (max-width: 580px)
           .nav
             flex-direction: column
@@ -144,6 +148,39 @@
             > div
               margin: 10px 0 10px 0
               width: auto
+  main
+    .section-1
+      background-color: $pinkish-grey
+      .main-container
+        grid-column: 2
+        margin: 85.5px 0 170.5px 0
+        width: 605px
+        height: 329px
+        padding: 56px 57px 66px
+        box-shadow: 2px 4px 16px 0 rgba(0, 0, 0, 0.2)
+        background-color: $white-92
+        .main-cont-description
+          width: 459px
+          height: 35px
+          margin: 0 32px 20px 0
+          @include Text-Style-5()
+        p
+          width: 491px
+          height: 73px
+          flex-grow: 0
+          margin: 20px 0
+          @include Text-Style()
+        a
+          width: 243px
+          height: 59px
+          margin: 20px 248px 0 0
+          padding: 18.5px 76.5px
+          border-radius: 10px
+          background-color: $grapefruit
+          span
+            width: 90px
+            height: 22px
+            @include Text-Style-15()
 
 
 

@@ -296,9 +296,13 @@ button:hover {
 @media (max-width: 1300px) {
   .wrapper header .header .header-lines .nav {
     grid-column: 1/span 5;
+    grid-row: 3;
   }
   .wrapper header .header .header-lines .logo {
     margin: 15px 0;
+  }
+  .wrapper header .header .header-lines .contact-block {
+    grid-row: 2/4;
   }
 }
 @media (max-width: 1220px) {
@@ -329,6 +333,7 @@ button:hover {
   .wrapper header .header .header-lines .nav {
     grid-column: 1/13;
     justify-self: center;
+    grid-row: 4;
   }
 }
 @media (max-width: 580px) {
@@ -345,4 +350,58 @@ button:hover {
     margin: 10px 0 10px 0;
     width: auto;
   }
+}
+.wrapper main .section-1 {
+  background-color: #c4c4c4;
+}
+.wrapper main .section-1 .main-container {
+  grid-column: 2;
+  margin: 85.5px 0 170.5px 0;
+  width: 605px;
+  height: 329px;
+  padding: 56px 57px 66px;
+  -webkit-box-shadow: 2px 4px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 4px 16px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.92);
+}
+.wrapper main .section-1 .main-container .main-cont-description {
+  width: 459px;
+  height: 35px;
+  margin: 0 32px 20px 0;
+  font-family: Ubuntu;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.38;
+  text-align: left;
+  color: #041e50;
+}
+.wrapper main .section-1 .main-container p {
+  width: 491px;
+  height: 73px;
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  margin: 20px 0;
+  font-family: Ubuntu;
+  font-size: 16px;
+  text-align: left;
+  color: #041e50;
+}
+.wrapper main .section-1 .main-container a {
+  width: 243px;
+  height: 59px;
+  margin: 20px 248px 0 0;
+  padding: 18.5px 76.5px;
+  border-radius: 10px;
+  background-color: #ff5252;
+}
+.wrapper main .section-1 .main-container a span {
+  width: 90px;
+  height: 22px;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.38;
+  text-align: left;
+  color: #fff;
 }
