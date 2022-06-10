@@ -405,3 +405,210 @@ button:hover {
   text-align: left;
   color: #fff;
 }
+@media (max-width: 946px) {
+  .wrapper main .section-1 .main-container {
+    justify-self: center;
+  }
+}
+.wrapper main .section-2 .sec-2-description {
+  grid-column: 2;
+  height: 37px;
+  margin: 70px 111px 30px;
+  justify-self: center;
+  font-family: Ubuntu;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: #041e50;
+}
+.wrapper main .section-2 .sec-2-main {
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-column-gap: 30px;
+  justify-items: center;
+}
+.wrapper main .section-2 .sec-2-main .sec-2-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 350px;
+  min-height: 551px;
+  padding: 12px 42.4px 31.5px 42.6px;
+  -webkit-box-shadow: 2px 4px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 4px 16px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+.wrapper main .section-2 .sec-2-main .sec-2-container .cont-code {
+  height: 20px;
+  margin-bottom: 9px;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.26;
+  letter-spacing: 0.28px;
+  text-align: left;
+  color: #041e50;
+}
+.wrapper main .section-2 .sec-2-main .sec-2-container .cont-description {
+  width: 262px;
+  height: 40px;
+  margin-bottom: 8px;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.32px;
+  text-align: left;
+  color: #041e50;
+}
+.wrapper main .section-2 .sec-2-main .sec-2-container .star-block {
+  margin-bottom: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.wrapper main .section-2 .sec-2-main .sec-2-container .star-block .stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 80px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.wrapper main .section-2 .sec-2-main .sec-2-container .star-block .stars div {
+  min-width: 12px;
+  min-height: 10px;
+}
+.wrapper main .section-2 .sec-2-main .sec-2-container .star-block .stars div:nth-of-type(1) {
+  background: url("../../img/main-star-filled.svg") no-repeat center;
+  background-size: 100% 100%;
+}
+.wrapper main .section-2 .sec-2-main .sec-2-container .star-block .stars div:nth-of-type(2) {
+  background: url("../../img/main-star-filled.svg") no-repeat center;
+  background-size: 100% 100%;
+}
+.wrapper main .section-2 .sec-2-main .sec-2-container .star-block .stars div:nth-of-type(3) {
+  background: url("../../img/main-star-filled.svg") no-repeat center;
+  background-size: 100% 100%;
+}
+.wrapper main .section-2 .sec-2-main .sec-2-container .star-block .stars div:nth-of-type(4) {
+  background: url("../../img/main-star-filled.svg") no-repeat center;
+  background-size: 100% 100%;
+}
+.wrapper main .section-2 .sec-2-main .sec-2-container .star-block .stars div:last-of-type {
+  background: url("../../img/main-star-empty.svg") no-repeat center;
+  background-size: 100% 100%;
+}
+.wrapper main .section-2 .sec-2-main .sec-2-container .star-block .review {
+  min-height: 10px;
+  min-width: 94px;
+  margin: 0 0 0 15px;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.26;
+  letter-spacing: 0.28px;
+  text-align: left;
+  color: #041e50;
+}
+.wrapper main .section-2 .sec-2-main .sec-2-container .cont-picture {
+  width: 264px;
+  height: 264px;
+  margin: 0 0 28px 1px;
+  padding: 0 204px 234px 0;
+  background-color: #c4c4c4;
+  position: relative;
+}
+.wrapper main .section-2 .sec-2-main .sec-2-container .cont-picture .pic-label {
+  position: absolute;
+  z-index: 1;
+  min-width: 60px;
+  min-height: 30px;
+  background: url("../../img/main-flag-yellow.svg") no-repeat center center;
+}
+.wrapper main .section-2 .sec-2-main .sec-2-container .price {
+  height: 20px;
+  margin: 0 0 28px 1px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.48px;
+  text-align: left;
+  color: #ff5252;
+}
+.wrapper main .section-2 .sec-2-main .sec-2-container a {
+  width: 180px;
+  height: 50px;
+  margin: 0 0 12.5px 1px;
+  padding: 14px 61px 17px 61px;
+  border-radius: 10px;
+  background-color: #ff5252;
+}
+.wrapper main .section-2 .sec-2-main .sec-2-container a span {
+  width: 58px;
+  height: 19px;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.32px;
+  text-align: center;
+  color: #fff;
+}
+.wrapper main .section-2 .sec-2-main .sec-2-container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+.wrapper main .section-2 .sec-2-main .sec-2-container form label {
+  height: 10px;
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  margin: 0 0 0 8.3px;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 0.97;
+  letter-spacing: 0.28px;
+  text-align: left;
+  color: #041e50;
+  padding-left: 8.3px;
+}
+.wrapper main .section-2 .sec-2-main .sec-2-container form label::before {
+  content: "";
+  display: block;
+  width: 11px;
+  height: 10px;
+  border: 1px solid #041e50;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.wrapper main .section-2 .sec-2-main .sec-2-container form label::after {
+  content: "";
+  display: block;
+  width: 11px;
+  height: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  opacity: 0;
+  background: url("../../img/main-checkbox-checked.svg") no-repeat 2px center;
+  background-size: 100% 100%;
+}
+.wrapper main .section-2 .sec-2-main .sec-2-container form .checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.wrapper main .section-2 .sec-2-main .sec-2-container form .checkbox:checked + label::after {
+  opacity: 1;
+}

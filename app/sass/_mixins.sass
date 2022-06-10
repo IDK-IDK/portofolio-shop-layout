@@ -4,4 +4,11 @@
 //  font-weight: $fontWeight;
 //  font-family: 'Times', sans-serif;
 //}
+@mixin stars($i)
+  @for $j from 1 to $i+1
+    &:nth-of-type(#{$j})
+      background: url("../../img/main-star-filled.svg") no-repeat  center
+      background-size: 100% 100%
+
+
 
