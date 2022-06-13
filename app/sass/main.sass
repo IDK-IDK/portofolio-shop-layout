@@ -66,20 +66,44 @@
             min-width: 1px
             height: 30px
             background-color: $white-50
+            @media (max-width: 1220px)
+              grid-column: 4/13
+            @media (max-width: 950px)
+              grid-column: 1/13
+              justify-self: center
+          @media (max-width: 946px)
+            grid-column: 1/13
+            justify-content: center
+
         .logo
           grid-row: 2
-
           grid-column: 1/span 2
           width: 72px
           height: 30px
           background-color: $marine
           background: url("../../img/footer-logo.svg") no-repeat center center
+          @media (max-width: 1300px)
+            margin: 15px 0
+          @media (max-width: 950px)
+            grid-column: 1/13
+            justify-self: center
+            grid-row: 2
+            margin: 15px 0 0 0
         .nav
           grid-row: 2
-
           grid-column: 4/ span 5
           display: flex
           min-width: 445px
+
+          @media (max-width: 1300px)
+            grid-column: 1/ span 5
+            grid-row: 3
+            //padding-bottom-bottom: 15px
+          @media (max-width: 950px)
+            grid-column: 1/13
+            justify-self: center
+            grid-row: 5
+            margin: 0 0 10px 0
           div
             height: 19px
             margin: 0 34.7px 0 0
@@ -88,6 +112,12 @@
               min-width: 141px
             &:nth-of-type(4)
                 margin-right: 0
+          @media (max-width: 600px)
+            flex-direction: column
+            align-items: center
+            > div
+              margin: 0 0 15px 0
+
         .contact-block
           grid-row: 2
           grid-column: 10/ span 3
@@ -111,43 +141,22 @@
             height: 14px
             margin: 10px 25px 0
             @include Text-Style-2()
-        @media (max-width: 1300px)
-          .nav
-            grid-column: 1/ span 5
-            grid-row: 3
-          .logo
-            margin: 15px 0
-          .contact-block
+          @media (max-width: 1300px)
             grid-row: 2/4
-        @media (max-width: 1220px)
-          .contact-block
+          @media (max-width: 1220px)
             grid-column: 6/ 13
-          .top-header-line
-            grid-column: 4/13
-        @media (max-width: 950px)
-          .logo
+          @media (max-width: 950px)
             grid-column: 1/13
-            justify-self: center
-            grid-row: 2
-            margin: 15px 0 0 0
-          .contact-block
-            grid-column: 1/13
-            grid-row: 3
+            //grid-row: 3
             margin: 15px 0
-            justify-self: center
-          .top-header-line
-            grid-column: 1/13
-            justify-self: center
-          .nav
-            grid-column: 1/13
             justify-self: center
             grid-row: 4
-        @media (max-width: 580px)
-          .nav
-            flex-direction: column
-            align-items: center
+            //margin: 0 0 10px 0
+          @media (max-width: 580px)
+            //flex-direction: column
+            //align-items: center
             > div
-              margin: 10px 0 10px 0
+              //margin: 10px 0 10px 0
               width: auto
   main
     .section-1
@@ -160,21 +169,28 @@
         padding: 56px 57px 66px
         box-shadow: 2px 4px 16px 0 rgba(0, 0, 0, 0.2)
         background-color: $white-92
+        display: flex
+        flex-direction: column
         .main-cont-description
-          width: 459px
           height: 35px
-          margin: 0 32px 20px 0
+          margin: 0 0 20px 0
           @include Text-Style-5()
-        p
+          @media (max-width: 590px)
+            padding: 0 0 80px 0
+            display: block
+            text-align: center
+            width: 60%
+        > p
           width: 491px
-          height: 73px
           flex-grow: 0
           margin: 20px 0
           @include Text-Style()
-        a
+          @media (max-width: 590px)
+            width: 60%
+        > a
           width: 243px
           height: 59px
-          margin: 20px 248px 0 0
+          margin: 20px 0 0 0
           padding: 18.5px 76.5px
           border-radius: 10px
           background-color: $grapefruit
@@ -182,8 +198,19 @@
             width: 90px
             height: 22px
             @include Text-Style-15()
+          @media (max-width: 590px)
+            margin-bottom: 40px
         @media (max-width: 946px)
           justify-self: center
+          margin-bottom: 85.5px
+          align-items: center !important
+        @media (max-width: 590px)
+          grid-column: 2
+      @media (max-width: 590px)
+        display: grid
+        grid-template-columns: 11.45833333333333%  77.11805555555556%  11.43055555555556%
+
+
     .section-2
       .sec-2-description
         grid-column: 2
@@ -191,11 +218,13 @@
         margin: 70px 111px 30px
         justify-self: center
         @include Text-Style-6()
+        @media (max-width: 531px)
+          margin-bottom: 80px
       .sec-2-main
         grid-column: 2
         display: grid
         grid-template-columns: repeat(auto-fit,minmax(350px,1fr))
-        grid-column-gap: 30px
+        grid-gap: 20px 30px
         justify-items: center
         .sec-2-container
           display: flex
@@ -298,6 +327,102 @@
               appearance: none
               &:checked + label::after
                 opacity: 1
+          @media (max-width: 946px)
+            align-items: center
+        //@media (max-width: 920px)
+        //  align-items: center
+      @media (max-width: 1439px)
+        grid-column-gap: 20px
+      @media (max-width: 1439px)
+        grid-column-gap: 10px
+  footer
+    background-color: $marine
+    .footer
+      grid-column: 1/3
+      padding: 53px 0 52px 120px
+      display: grid
+      grid-template-columns: repeat(2,minmax(113px,1fr))
+      .footer-main
+        display: flex
+        > div
+          max-height: 153px
+          display: flex
+          flex-direction: column
+          justify-content: space-between
+          @include Text-Style-12()
+        .footer-1-adv
+          min-width: 322px
+        .footer-2-cont
+          min-width: 425px
+          .contacts
+            margin-bottom: 17px
+          .tel, .schedule
+            margin-bottom: 6px
+        .footer-3-blog
+          min-width: 295px
+        @media (max-width: 1386px)
+          grid-column: 1/3
+          justify-self: center
+          grid-row: 1
+        @media (max-width: 1200px)
+          flex-wrap: wrap
+          justify-content: space-between
+          width: 100% !important
+          > div
+            min-width: auto  !important
+            > span, p
+              min-width: auto !important
+        @media (max-width: 920px)
+          flex-direction: column
+          > div
+            margin-top: 30px
+      .footer-4-soc
+        max-height: 153px
+        display: flex
+        justify-content: space-between
+        @include Text-Style-12()
+        min-width: 113px
+        justify-self: end
+        align-self: start
+        a
+          min-width: 16px
+          min-height: 20px
+        .yt
+          background: url("../../img/footer-youtube.svg") center
+          background-size: 100% 100%
+        .inst
+          background: url("../../img/footer-insta.svg") center
+          background-size: 100% 100%
+        .fb
+          background: url("../../img/footer-fb.svg") center
+          background-size: 100% 100%
+        @media (max-width: 1386px)
+          padding-right: 0px
+          padding-left: 0px
+          grid-column: 2
+        @media (max-width: 1386px)
+          grid-row: 1
+          grid-column: 1/3
+        @media (max-width: 1200px)
+          grid-row: 2
+          grid-column: 1/3
+          justify-self: center !important
+          margin: 30px 0 0 0
+        @media (max-width: 920px)
+          grid-row: 1
+          grid-column: 2
+        @media (max-width: 525px)
+          grid-row: 2
+          grid-column: 1/3
+          justify-self: center !important
+          margin-top: 30px
+
+
+
+
+
+
+
 
 
 
