@@ -1,50 +1,204 @@
+@media (max-width: 1300px)
+  html
+    body
+      .global-wrapper
+        .wrapper
+          main
+            .section-2
+              .sec-2-main
+                margin-bottom: 208px
+          footer
+            > div
+              position: static!important
+              margin-bottom: 52px
+            .footer-1-adv
+              grid-column: 1/4
+            .footer-2-cont
+              grid-column: 4/8
+            .footer-3-blog
+              grid-column: 8/11
+            .footer-4-soc
+              grid-column: 11/13
+              align-self: start
+              justify-self: end
+@media (max-width: 1170px)
+  html
+    body
+      .global-wrapper
+        grid-template-columns:  30px auto 30px
+        .wrapper
+          grid-template-columns: repeat(auto-fit,minmax(0px,1fr))
+          header
+            .bottom-header-line
+              nav
+                grid-column: 1/13
+                grid-row: 2
+                align-self: end
+                max-width: 445px
+              .contact-block
+                grid-column: 7/13
+@media (max-width: 789px)
+  html
+    body
+      .global-wrapper
+        .footer-color
+          min-height: 500px
+        .wrapper
+          main
+            .section-2
+              .sec-2-main
+                margin-bottom: 208px
+          footer
+            > dir
+              margin-bottom: 0
+            .footer-1-adv
+              grid-column: 1/6
+            .footer-2-cont
+              grid-column: 8/13
+              justify-self: start
+            .footer-3-blog
+              grid-column: 1/8
+
+            .footer-4-soc
+              grid-column: 8/13
+              justify-self: start
+              margin-bottom: 52px
+
+@media (max-width: 775px)
+  html
+    body
+      .global-wrapper
+        grid-template-columns:  30px auto 30px
+        .section-main-color
+          top: 204px
+        .wrapper
+          header
+            .bottom-header-line
+              .logo
+                margin: 15px 0
+              nav
+                grid-row: 3 !important
+                align-self: center !important
+              .contact-block
+                grid-column: 1/13
+                grid-row: 4
+                margin: 15px 0
+@media (max-width: 665px)
+  html
+    body
+      .global-wrapper
+        .wrapper
+          main
+            .section-1
+              .main-container
+                grid-column: 1/13
+                margin: 55.5px 0 170.5px 0
+                width: auto
+                height: auto
+                .main-cont-description
+                  font-size: 25px
+                p
+                  height: auto
+                  width: auto
+          footer
+            .footer-2-cont
+              grid-column: 6/13
+
+@media (max-width: 514px)
+  html
+    body
+      .global-wrapper
+        grid-template-columns:  5px auto 5px
+        .footer-color
+          min-height: 750px
+        .wrapper
+          header
+            .top-header-line
+
+              justify-content: space-evenly !important
+              > div
+                padding: 0 !important
+                border: none !important
+            .bottom-header-line
+              nav
+                min-width: auto
+              .contact-block
+                grid-column: 1/13
+                justify-self: center
+          footer
+            >div
+              min-width: 100% !important
+              text-align: center
+
+              &:last-child
+                min-width: 113px !important
+                justify-self: center
+            .footer-1-adv
+              grid-column: 1/13
+            .footer-2-cont
+              grid-column: 1/13
+            .footer-3-blog
+              grid-column: 1/13
+            .footer-4-soc
+              grid-column: 1/13
+
+@media (max-width: 440px)
+  html
+    body
+      .global-wrapper
+        .wrapper
+          grid-column-gap: 5px
+          header
+            //.top-header-line
+            .bottom-header-line
+              nav
+                flex-direction: column
+                align-items: center
+                margin-bottom: 80px
+                > span
+                  margin-bottom: 5px
+              .contact-block
+                grid-column: 1/13 !important
+                width: 100%
+                align-items: center
+                height: auto
+          main
+            .section-1
+              .main-container
+                grid-column: 1/13
+                margin-top: 50px !important
+                margin-bottom: 70px !important
+                padding: 10px 10px !important
+                align-items: center !important
+                .main-cont-description
+                  margin-top: 15px !important
+                  margin-bottom: 0 !important
+                  text-align: center !important
+            .section-2
+              .sec-2-description
+                font-size: 25px
+@media (max-width: 369px)
+  html
+    body
+      .global-wrapper
+        .wrapper
+          main
+            .main-container
+              .main-cont-description
+                margin-bottom: 30px !important
+                font-size: 20px !important
+              p
+                font-size: 14px !important
+            .section-2
+              .sec-2-main
+                grid-template-columns: repeat(auto-fit,minmax(180px,1fr))
+                .sec-2-container
+                  padding: 12px 10px 10px 12px
+                  > span, div, form
+                    width: auto !important
 
 
-/*==========  Desktop First  ==========*/
-//@media (max-width: 1800px)
 
 
-/* Large Devices, Wide Screens */
-//@media  (max-width : 1200px)
 
-//
-///* Medium Devices, Desktops */
-//@media only screen and (max-width : 992px)
-//
-//
-///* Small Devices, Tablets */
-//@media only screen and (max-width : 768px)
-//
-///* Extra Small Devices, Phones */
-//@media only screen and (max-width : 480px)
-//
-///* Custom, iPhone Retina */
-//@media only screen and (max-width : 320px)
-///**/
-//
-///*==========  Mobile First  ==========*/
-//
-///* Custom, iPhone Retina */
-//@media only screen and (min-width : 320px)
-///**/
-//
-//
-///* Extra Small Devices, Phones */
-//@media only screen and (min-width : 480px)
-///**/
-//
-//
-///* Small Devices, Tablets */
-//@media only screen and (min-width : 768px)
-///**/
-//
-//
-///* Medium Devices, Desktops */
-//@media only screen and (min-width : 992px)
-///**/
-//
-//
-///* Large Devices, Wide Screens */
-//@media only screen and (min-width : 1200px)
-///**/
-//
+
